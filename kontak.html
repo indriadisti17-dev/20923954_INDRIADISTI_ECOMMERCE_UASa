@@ -3,42 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kontak - Toko Indri</title>
+  <title>Kontak Kami</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Header -->
+
   <header>
-    <h1>Toko Indri</h1>
+    <h1>Toko Online Sederhana</h1>
     <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="produk1.html">Produk</a></li>
-        <li><a href="kontak.html">Kontak</a></li>
-      </ul>
+      <a href="index.html">Home</a>
+      <a href="produk1.html">Produk</a>
+      <a href="kontak.html">Kontak</a>
     </nav>
   </header>
 
-  <!-- Form Kontak -->
-  <main>
-    <h2 style="text-align:center; margin:20px 0;">Formulir Kontak</h2>
+  <section class="kontak">
+    <h2>Hubungi Kami</h2>
     <form>
-      <label for="nama">Nama</label>
-      <input type="text" id="nama" name="nama" placeholder="Masukkan nama anda">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" required>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Masukkan email anda">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
 
-      <label for="pesan">Pesan</label>
-      <textarea id="pesan" name="pesan" placeholder="Tulis pesan anda"></textarea>
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" rows="5" required></textarea>
 
-      <button type="submit" class="btn">Kirim</button>
+      <button type="submit">Kirim</button>
     </form>
-  </main>
+  </section>
 
-  <!-- Footer -->
   <footer>
-    <p>Hubungi kami: indriadisti7@gmail.com | 0851-4332-6413 | Bandung</p>
+    <p>Email: tokosimple@gmail.com | Telp: 0812-3456-7890</p>
   </footer>
+
 </body>
 </html>
+
